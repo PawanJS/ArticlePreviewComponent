@@ -17,11 +17,12 @@
     />
     <title>Frontend Mentor | Article preview component</title>
     <link rel="stylesheet" href="css/mainStyles.css" />
+    <script defer src="js/main.js"></script>
   </head>
   <body>
     <main class="container">
       <figure class="share__item">
-        <img src="images/drawers.jpg" alt="Drawer" class="share__img" />
+        <img src="images/drawers.jpg" alt="Drawers" class="share__img" />
       </figure>
       <div class="share__text">
         <h1 class="heading-1">
@@ -45,35 +46,27 @@
             Michelle Appleton
             <span> 28 Jun 2020 </span>
           </div>
-          <figure class="share__item">
-            <img
-              src="images/icon-share.svg"
-              alt="icon-share"
-              class="share__image"
-            />
-          </figure>
-          <div class="share__social-box">
+          <a href="#" class="share js-share">
+            <svg class="share--icon">
+              <use xlink:href="images/sprite.svg#icon-share"></use>
+            </svg>
+          </a>
+          <div class="share__social-box js-box">
             <span>Share</span>
             <a href="#" class="share__social--link">
-              <img
-                src="images/icon-facebook.svg"
-                alt="facebook"
-                class="share__social--img"
-              />
+              <svg class="share__social--icon icon-facebook">
+                <use xlink:href="images/sprite.svg#icon-facebook"></use>
+              </svg>
             </a>
             <a href="#" class="share__social--link">
-              <img
-                src="images/icon-twitter.svg"
-                alt="twitter"
-                class="share__social--img"
-              />
+              <svg class="share__social--icon icon-twitter">
+                <use xlink:href="images/sprite.svg#icon-twitter"></use>
+              </svg>
             </a>
             <a href="#" class="share__social--link">
-              <img
-                src="images/icon-pinterest.svg"
-                alt="pinterest"
-                class="share__social--img"
-              />
+              <svg class="share__social--icon icon-pinterest">
+                <use xlink:href="images/sprite.svg#icon-pinterest"></use>
+              </svg>
             </a>
           </div>
         </div>
@@ -83,7 +76,7 @@
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
+      >. Coded by <a href="https://github.com/PawanJS">Pawan JS</a>.
     </footer>
   </body>
 </html>
