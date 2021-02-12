@@ -89,20 +89,14 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.share:hover .share--icon {
-  fill: hsl(228, 45%, 44%);
-}
-
-.share::before {
-  content: "";
   background-color: hsl(212, 23%, 69%);
   width: 2.5rem;
   height: 2.5rem;
   border-radius: 50%;
-  position: absolute;
-  z-index: -1;
+}
+
+.share:hover .share--icon {
+  fill: hsl(228, 45%, 44%);
 }
 
 .share--icon {
@@ -207,7 +201,7 @@ body {
     overflow: hidden;
   }
 
-  .share::before {
+  .share {
     z-index: 5;
   }
 
