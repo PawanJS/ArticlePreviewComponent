@@ -175,8 +175,18 @@ body {
   color: hsl(212, 23%, 69%);
 }
 
-/* Classes to be add with js */
+/* Screen reader only */
 
+.scr-only {
+  position: absolute;
+  left: -100000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+/* Classes to be add with js */
 .active {
   visibility: visible;
   transform: translateY(0);
