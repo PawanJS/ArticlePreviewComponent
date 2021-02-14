@@ -17,7 +17,7 @@ body {
   background-color: hsl(210, 46%, 95%);
   line-height: 1.4;
   font-weight: 500;
-  min-height: 100vh;
+  min-height: 110vh;
   display: grid;
   place-items: end center;
   grid-row-gap: 5rem;
