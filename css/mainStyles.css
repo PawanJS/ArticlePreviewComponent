@@ -17,7 +17,7 @@ body {
   background-color: hsl(210, 46%, 95%);
   line-height: 1.4;
   font-weight: 500;
-  min-height: 110vh;
+  min-height: 114vh;
   display: grid;
   place-items: end center;
   grid-row-gap: 5rem;
@@ -201,6 +201,8 @@ body {
 @media only screen and (max-width: 40em) {
   body {
     padding: 3rem;
+    max-height: 100vh;
+    place-items: center;
   }
 
   .container {
@@ -244,6 +246,10 @@ body {
 
   .share__social-box::after {
     display: none;
+  }
+
+  .attribution {
+    align-self: start;
   }
 }
 
